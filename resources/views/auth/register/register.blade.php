@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="{{ route('registerPost') }}" method="POST">
+    <form action="" method="POST">
         <div class="w-25 vh-75 border p-3" style="box-shadow:2px 2px 4px gray; border-radius:10px; background-color:white;">
             <div class="register_form">
                 <!--ニックネーム-->
@@ -68,7 +68,7 @@
                 </div>
                 <!--ログイン画面へ遷移-->
                 <div class="text-center mb-2">
-                    <a href="{{ route('loginView') }}">ログインはこちら</a>
+                    <a href="">ログインはこちら</a>
                 </div>
             </div>
         {{ csrf_field() }}
