@@ -36,11 +36,11 @@
                     <span class="error_message">{{ $errors->first('role') }}</span>
                     @endif
                     <label class="d-block m-0" style="font-size:13px">役職</label>
-                    <input type="radio" name="role" class="admin_role role" value="1">
+                    <input type="checkbox" name="role" class="admin_role role" value="1">
                     <label style="font-size:13px">ダンサー</label>
-                    <input type="radio" name="role" class="admin_role role" value="2">
+                    <input type="checkbox" name="role" class="admin_role role" value="2">
                     <label style="font-size:13px">撮影者</label>
-                    <input type="radio" name="role" class="admin_role role" value="3">
+                    <input type="checkbox" name="role" class="admin_role role" value="3">
                     <label style="font-size:13px">主催者</label>
                 </div>
                 <!--パスワード-->
