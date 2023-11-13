@@ -41,7 +41,7 @@
                     <input type="radio" name="role" class="admin_role role" value="2">
                     <label style="font-size:13px">撮影者</label>
                     <input type="radio" name="role" class="admin_role role" value="3">
-                    <label style="font-size:13px">どちらも</label>
+                    <label style="font-size:13px">主催者</label>
                 </div>
                 <!--パスワード-->
                 <div class="mt-3 password_block">
